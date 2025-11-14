@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7764BE9E2EC69851002CCBEA /* CoreUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764BE9D2EC69851002CCBEA /* CoreUI.framework */; };
+		7764BFC02EC7720B002CCBEA /* xcstrings-tool in Frameworks */ = {isa = PBXBuildFile; productRef = 7764BFBF2EC7720B002CCBEA /* xcstrings-tool */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7764BD152EC6821A002CCBEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7764BCFE2EC68219002CCBEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7764BD052EC68219002CCBEA;
+			remoteInfo = QLCARFilesApp;
+		};
+		7764BD1F2EC6821A002CCBEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7764BCFE2EC68219002CCBEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7764BD052EC68219002CCBEA;
+			remoteInfo = QLCARFilesApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7764BD062EC68219002CCBEA /* QLCARFilesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLCARFilesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7764BD142EC6821A002CCBEA /* QLCARFilesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLCARFilesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7764BD1E2EC6821A002CCBEA /* QLCARFilesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLCARFilesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7764BE9D2EC69851002CCBEA /* CoreUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreUI.framework; path = ../../../../../../System/Library/PrivateFrameworks/CoreUI.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7764BD082EC68219002CCBEA /* QLCARFilesApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QLCARFilesApp;
+			sourceTree = "<group>";
+		};
+		7764BD172EC6821A002CCBEA /* QLCARFilesAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QLCARFilesAppTests;
+			sourceTree = "<group>";
+		};
+		7764BD212EC6821A002CCBEA /* QLCARFilesAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QLCARFilesAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7764BD032EC68219002CCBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7764BFC02EC7720B002CCBEA /* xcstrings-tool in Frameworks */,
+				7764BE9E2EC69851002CCBEA /* CoreUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7764BD112EC6821A002CCBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7764BD1B2EC6821A002CCBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7764BCFD2EC68219002CCBEA = {
+			isa = PBXGroup;
+			children = (
+				7764BD082EC68219002CCBEA /* QLCARFilesApp */,
+				7764BD172EC6821A002CCBEA /* QLCARFilesAppTests */,
+				7764BD212EC6821A002CCBEA /* QLCARFilesAppUITests */,
+				7764BE9C2EC69851002CCBEA /* Frameworks */,
+				7764BD072EC68219002CCBEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7764BD072EC68219002CCBEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7764BD062EC68219002CCBEA /* QLCARFilesApp.app */,
+				7764BD142EC6821A002CCBEA /* QLCARFilesAppTests.xctest */,
+				7764BD1E2EC6821A002CCBEA /* QLCARFilesAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7764BE9C2EC69851002CCBEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7764BE9D2EC69851002CCBEA /* CoreUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7764BD052EC68219002CCBEA /* QLCARFilesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7764BD282EC6821A002CCBEA /* Build configuration list for PBXNativeTarget "QLCARFilesApp" */;
+			buildPhases = (
+				7764BD022EC68219002CCBEA /* Sources */,
+				7764BD032EC68219002CCBEA /* Frameworks */,
+				7764BD042EC68219002CCBEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7764BFC22EC772BC002CCBEA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7764BD082EC68219002CCBEA /* QLCARFilesApp */,
+			);
+			name = QLCARFilesApp;
+			productName = QLCARFilesApp;
+			productReference = 7764BD062EC68219002CCBEA /* QLCARFilesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7764BD132EC6821A002CCBEA /* QLCARFilesAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7764BD2B2EC6821A002CCBEA /* Build configuration list for PBXNativeTarget "QLCARFilesAppTests" */;
+			buildPhases = (
+				7764BD102EC6821A002CCBEA /* Sources */,
+				7764BD112EC6821A002CCBEA /* Frameworks */,
+				7764BD122EC6821A002CCBEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7764BD162EC6821A002CCBEA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7764BD172EC6821A002CCBEA /* QLCARFilesAppTests */,
+			);
+			name = QLCARFilesAppTests;
+			productName = QLCARFilesAppTests;
+			productReference = 7764BD142EC6821A002CCBEA /* QLCARFilesAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7764BD1D2EC6821A002CCBEA /* QLCARFilesAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7764BD2E2EC6821A002CCBEA /* Build configuration list for PBXNativeTarget "QLCARFilesAppUITests" */;
+			buildPhases = (
+				7764BD1A2EC6821A002CCBEA /* Sources */,
+				7764BD1B2EC6821A002CCBEA /* Frameworks */,
+				7764BD1C2EC6821A002CCBEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7764BD202EC6821A002CCBEA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7764BD212EC6821A002CCBEA /* QLCARFilesAppUITests */,
+			);
+			name = QLCARFilesAppUITests;
+			productName = QLCARFilesAppUITests;
+			productReference = 7764BD1E2EC6821A002CCBEA /* QLCARFilesAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7764BCFE2EC68219002CCBEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					7764BD052EC68219002CCBEA = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					7764BD132EC6821A002CCBEA = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 7764BD052EC68219002CCBEA;
+					};
+					7764BD1D2EC6821A002CCBEA = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 7764BD052EC68219002CCBEA;
+					};
+				};
+			};
+			buildConfigurationList = 7764BD012EC68219002CCBEA /* Build configuration list for PBXProject "QLCARFilesApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = 7764BCFD2EC68219002CCBEA;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7764BFBE2EC7720B002CCBEA /* XCRemoteSwiftPackageReference "xcstrings-tool" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7764BD072EC68219002CCBEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7764BD052EC68219002CCBEA /* QLCARFilesApp */,
+				7764BD132EC6821A002CCBEA /* QLCARFilesAppTests */,
+				7764BD1D2EC6821A002CCBEA /* QLCARFilesAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7764BD042EC68219002CCBEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7764BD122EC6821A002CCBEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7764BD1C2EC6821A002CCBEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7764BD022EC68219002CCBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7764BD102EC6821A002CCBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7764BD1A2EC6821A002CCBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7764BD162EC6821A002CCBEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7764BD052EC68219002CCBEA /* QLCARFilesApp */;
+			targetProxy = 7764BD152EC6821A002CCBEA /* PBXContainerItemProxy */;
+		};
+		7764BD202EC6821A002CCBEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7764BD052EC68219002CCBEA /* QLCARFilesApp */;
+			targetProxy = 7764BD1F2EC6821A002CCBEA /* PBXContainerItemProxy */;
+		};
+		7764BFC22EC772BC002CCBEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 7764BFC12EC772BC002CCBEA /* XCStringsToolPlugin */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7764BD262EC6821A002CCBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2F9CT8WDCR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7764BD272EC6821A002CCBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2F9CT8WDCR;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7764BD292EC6821A002CCBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QLCARFilesApp/QLCARFilesApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/System/Library/PrivateFrameworks,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					CoreUI,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cgn.qlcar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/QLCARFilesApp-Bridging-Header.h";
+				SWIFT_VERSION = 6.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Debug;
+		};
+		7764BD2A2EC6821A002CCBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QLCARFilesApp/QLCARFilesApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/System/Library/PrivateFrameworks,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					CoreUI,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cgn.qlcar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/QLCARFilesApp-Bridging-Header.h";
+				SWIFT_VERSION = 6.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Release;
+		};
+		7764BD2C2EC6821A002CCBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cgn.qlcar.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLCARFilesApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QLCARFilesApp";
+			};
+			name = Debug;
+		};
+		7764BD2D2EC6821A002CCBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cgn.qlcar.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLCARFilesApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QLCARFilesApp";
+			};
+			name = Release;
+		};
+		7764BD2F2EC6821A002CCBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cgn.qlcar.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = QLCARFilesApp;
+			};
+			name = Debug;
+		};
+		7764BD302EC6821A002CCBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cgn.qlcar.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = QLCARFilesApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7764BD012EC68219002CCBEA /* Build configuration list for PBXProject "QLCARFilesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7764BD262EC6821A002CCBEA /* Debug */,
+				7764BD272EC6821A002CCBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7764BD282EC6821A002CCBEA /* Build configuration list for PBXNativeTarget "QLCARFilesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7764BD292EC6821A002CCBEA /* Debug */,
+				7764BD2A2EC6821A002CCBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7764BD2B2EC6821A002CCBEA /* Build configuration list for PBXNativeTarget "QLCARFilesAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7764BD2C2EC6821A002CCBEA /* Debug */,
+				7764BD2D2EC6821A002CCBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7764BD2E2EC6821A002CCBEA /* Build configuration list for PBXNativeTarget "QLCARFilesAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7764BD2F2EC6821A002CCBEA /* Debug */,
+				7764BD302EC6821A002CCBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7764BFBE2EC7720B002CCBEA /* XCRemoteSwiftPackageReference "xcstrings-tool" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liamnichols/xcstrings-tool";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7764BFBF2EC7720B002CCBEA /* xcstrings-tool */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7764BFBE2EC7720B002CCBEA /* XCRemoteSwiftPackageReference "xcstrings-tool" */;
+			productName = "xcstrings-tool";
+		};
+		7764BFC12EC772BC002CCBEA /* XCStringsToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7764BFBE2EC7720B002CCBEA /* XCRemoteSwiftPackageReference "xcstrings-tool" */;
+			productName = "plugin:XCStringsToolPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7764BCFE2EC68219002CCBEA /* Project object */;
+}
